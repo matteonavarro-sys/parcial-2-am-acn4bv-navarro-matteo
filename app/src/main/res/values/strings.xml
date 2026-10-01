@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pases Gourmet</string>
+    <string name="title_home">Pases Gourmet Disponibles</string>
+    <string name="subtitle_home">Selecciona tus beneficios de hoy</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+</resources>
