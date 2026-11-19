@@ -34,8 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(MainActivity.this, "Bienvenido " + username, Toast.LENGTH_SHORT).show();
 
-                    // ESTAS DOS LÍNEAS HACEN EL SALTO DE PANTALLA:
+                    // ESTAS LÍNEAS CREAN EL INTENT, PASAN EL DATO Y HACEN EL SALTO DE PANTALLA:
                     Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                    intent.putExtra("USUARIO_NOMBRE", username);
                     startActivity(intent);
                 }
             }

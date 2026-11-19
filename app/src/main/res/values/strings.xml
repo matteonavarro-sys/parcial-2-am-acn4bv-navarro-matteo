@@ -5,4 +5,6 @@
     <string name="hint_username">Nombre de usuario</string>
     <string name="hint_password">Contraseña</string>
     <string name="btn_login">Ingresar</string>
+    <string name="redeemed_title">Mis pases canjeados:</string>
+    <string name="banner_description">Imagen de restaurante Pases Gourmet</string>
 </resources>
